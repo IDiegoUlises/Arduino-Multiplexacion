@@ -1,6 +1,6 @@
 # Multiplexacion implementado en arduino
 
-se trata que tienes 12 cables para ver datos pero puedes reducir a 6 cables AUMENTANDO la eficiencia y va a tener la misma velocidad de tranmision de datos PERO disminuyendo la cantidad de cables.
+Es una tecnica utiliza para que consiste...
 
 se utiliza para:
 
@@ -12,8 +12,5 @@ Ejemplo en la vida real mio en tranmision de datos: Yo compre el modulo camara p
 
 Ejemplo disminiur botones: Tengo un circuito de control con 50 botones y mi arduino tiene solo 25 entradas  yo puedo utilizar la multiplexacion para leer los 50 botones solo con 25 entradas del arduino.
 
-* ahorro otro arduino + es decir ahorro de recursos y dinero
-* Hago la recoleccion de datos con menos puertos
-* Puedo enviar datos a una velocidades altas
 
 Teclado Matrizzi utiliza la multiplexacion para que con solo 9 puerto se pueden ver los valores de 18 puertos
