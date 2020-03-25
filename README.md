@@ -19,3 +19,5 @@ Dato: Para utilizar el teclado matrizial utilizan cosas complejas con un monton 
 
 En total son 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 botones y lo conectamos como una matriz 4x4 es decir 16 posiciones para arriba y 4 posiciones para lado 4 la conexion es simple se ordena por una fila y una columna por fila de 4 y columna de 4 entonces se elige la posicione de la fila por ejemplo 2 y la columna 3 recibiendo solo 2 señales digitales podemos obtener el lugar exacto la idea de esto es que por cada 16 botones solo se utilizen 9 entradas.
 
+ADD: Tambien se puede utilizar matriz de 2x2 es decir 1,2,3,4 botones y solo con 2 entradas se puede obtener las pulsaciones de los 4 botones.
+
