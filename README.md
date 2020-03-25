@@ -21,3 +21,5 @@ En total son 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 botones y lo conectamos como
 
 ADD: Tambien se puede utilizar matriz de 2x2 es decir 1,2,3,4 botones y solo con 2 entradas se puede obtener las pulsaciones de los 4 botones.
 
+En la fila 1,2 se conecta en paralelo o serie la verdad que no se y la columna 1,2 paralela nose pero es decir si tu presiones un boton de la fila es como si presionaras todos los botones de la fila es como si presionaras la fila completa y tambien la columna completa pero solo sabiendo que posiciones de la fila y la columna que son 2 pines puedes obtener la direccion exacta
+
