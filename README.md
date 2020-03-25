@@ -1,4 +1,4 @@
-# Multiplexacion implementado en arduino
+# Multiplexacion implementado en Arduino
 
 Es una tecnica utiliza para que consiste...
 
