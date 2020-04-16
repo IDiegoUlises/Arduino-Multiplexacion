@@ -1,7 +1,6 @@
 # Multiplexacion implementado en Arduino
 
-Es una tecnica utiliza para que consiste...
-
+Es una tecnica utiliza para que consiste..
 se utiliza para:
 
 * Las comunicacion para auemntar la trasnferencia de datos
