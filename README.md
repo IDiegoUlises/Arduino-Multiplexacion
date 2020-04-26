@@ -50,7 +50,7 @@ void funcion(int pulsado,String mensaje)
   if (pulsado == 0) //high
   {
     Serial.print(mensaje);
-    Serial.println(" :HIGH");
+    Serial.println(" HIGH");
   }
   delay(50);
 }
