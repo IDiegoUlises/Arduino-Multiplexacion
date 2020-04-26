@@ -80,15 +80,15 @@ void loop() {
   funcion(boton2,"boton 2");
 
 //columna 3 y fila 3
-  int boton2 = digitalRead(4);
+  int boton3 = digitalRead(4);
   funcion(boton3,"boton 3");
 
 //fila 2
-  int boton2 = digitalRead(5);
+  int boton4 = digitalRead(5);
   funcion(boton4,"boton 4");
 
   //fila 1
-  int boton2 = digitalRead(6);
+  int boton5 = digitalRead(6);
   funcion(boton5,"boton 5");
 
 }
