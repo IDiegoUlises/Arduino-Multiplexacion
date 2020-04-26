@@ -22,3 +22,36 @@ ADD: Tambien se puede utilizar matriz de 2x2 es decir 1,2,3,4 botones y solo con
 
 En la fila 1,2 se conecta en paralelo o serie la verdad que no se y la columna 1,2 paralela nose pero es decir si tu presiones un boton de la fila es como si presionaras todos los botones de la fila es como si presionaras la fila completa y tambien la columna completa pero solo sabiendo que posiciones de la fila y la columna que son 2 pines puedes obtener la direccion exacta
 
+
+## Inicio de codigo que funciona para leer el estado de los botones parte 1
+
+```c++
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(5, INPUT_PULLUP);
+  pinMode(6, INPUT_PULLUP);
+
+}
+
+void loop() {
+
+  int boton1 = digitalRead(5);
+  funcion(boton1,"boton 1");
+  
+  int boton2 = digitalRead(6);
+  funcion(boton2,"boton 2");
+
+
+}
+
+void funcion(int pulsado,String mensaje)
+{
+  if (pulsado == 0) //high
+  {
+    Serial.print(mensaje);
+    Serial.println(" :HIGH");
+  }
+  delay(50);
+}
+```
