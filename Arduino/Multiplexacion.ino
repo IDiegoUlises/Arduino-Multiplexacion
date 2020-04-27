@@ -34,57 +34,56 @@ void posicion(int columna1, int columna2, int columna3, int fila1, int fila2, in
   //columna 1
   if (columna1 == 0 && fila1 == 0) //high
   {
-    Serial.println("Es posicion 1");
+    Serial.println("Es la posicion 1");
     delay(50);
   }
 
   if (columna1 == 0 && fila2 == 0)
   {
-    Serial.println("Es posicion 2");
+    Serial.println("Es la posicion 2");
     delay(50);
   }
 
   if (columna1 == 0 && fila3 == 0)
   {
-    Serial.println("Es posicion 3");
+    Serial.println("Es la posicion 3");
     delay(50);
   }
   //columna 2
   if (columna2 == 0 && fila1 == 0)
   {
-    Serial.println("Es posicion 4");
+    Serial.println("Es la posicion 4");
     delay(50);
   }
 
   if (columna2 == 0 && fila2 == 0)
   {
-    Serial.println("Es posicion 5");
+    Serial.println("Es la posicion 5");
     delay(50);
   }
 
   if (columna2 == 0 && fila3 == 0)
   {
-    Serial.println("Es posicion 6");
+    Serial.println("Es la posicion 6");
     delay(50);
   }
   //columna 3
   if (columna3 == 0 && fila1 == 0)
   {
-    Serial.println("Es posicion 7");
+    Serial.println("Es la posicion 7");
     delay(50);
   }
 
   if (columna3 == 0 && fila2 == 0)
   {
-    Serial.println("Es posicion 8");
+    Serial.println("Es la posicion 8");
     delay(50);
   }
 
   if (columna3 == 0 && fila3 == 0)
   {
-    Serial.println("Es posicion 9");
+    Serial.println("Es la posicion 9");
     delay(50);
   }
 }
  
-  
