@@ -12,23 +12,18 @@ void loop() {
 
   //columnas 1
   int boton1 = digitalRead(2);
-  //funcion(boton1,"boton 1");
 
   //columna 2
   int boton2 = digitalRead(3);
-  //funcion(boton2,"boton 2");
 
   //columna 3 y fila 3
   int boton3 = digitalRead(4);
-  //funcion(boton3,"boton 3");
 
   //fila 2
   int boton4 = digitalRead(5);
-  //funcion(boton4,"boton 4");
 
   //fila 1
   int boton5 = digitalRead(6);
-  //funcion(boton5,"boton 5");
 
   posicion(boton1, boton2, boton3, boton5, boton4, boton3);
 }
