@@ -25,14 +25,15 @@ void loop() {
   //fila 1
   int boton5 = digitalRead(6);
 
+  //Obtener la posicion
   posicion(boton1, boton2, boton3, boton5, boton4, boton3);
 }
 
-
+//Obtiendo la columa y fila se obtiene la posicion en la cual fue pulsada el boton
 void posicion(int columna1, int columna2, int columna3, int fila1, int fila2, int fila3)
 {
   //columna 1
-  if (columna1 == 0 && fila1 == 0) //high
+  if (columna1 == 0 && fila1 == 0) //High
   {
     Serial.println("Es la posicion 1");
     delay(50);
