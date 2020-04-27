@@ -3,7 +3,7 @@
 Es una tecnica utiliza para que consiste..
 se utiliza para:
 
-* Las comunicacion para auemntar la trasnferencia de datos
+* Las comunicacion para auemntar la trasnferencia de datos FALSO NO AUMENTA
 * Para disminuir la cantidad de puertos para enviar datos
 * Leer botones disminuyendo la cantidad de puertos utilizados
 
