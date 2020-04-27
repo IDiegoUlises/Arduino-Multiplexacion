@@ -8,8 +8,8 @@ void setup()
   pinMode(6, INPUT_PULLUP);
 }
 
-void loop() {
-
+void loop() 
+{
   //columnas 1
   int boton1 = digitalRead(2);
 
