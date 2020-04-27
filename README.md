@@ -1,4 +1,4 @@
-# Multiplexacion implementado en Arduino
+# Multiplexacion implementado en Arduino(Obsoleta)
 
 Es una tecnica utiliza para que consiste..
 se utiliza para:
