@@ -1,4 +1,3 @@
-```c++
 void setup()
 {
   Serial.begin(9600);
@@ -11,7 +10,7 @@ void setup()
 
 void loop() {
 
-  //Columnas 1
+  //columnas 1
   int boton1 = digitalRead(2);
   //funcion(boton1,"boton 1");
 
@@ -32,76 +31,65 @@ void loop() {
   //funcion(boton5,"boton 5");
 
   posicion(boton1, boton2, boton3, boton5, boton4, boton3);
-
 }
 
-void funcion(int pulsado, String mensaje)
-{
-  if (pulsado == 0) //high
-  {
-    Serial.print(mensaje);
-    Serial.println(" HIGH");
-  }
-  delay(50);
-}
 
 void posicion(int columna1, int columna2, int columna3, int fila1, int fila2, int fila3)
 {
-  ////columna 1
+  //columna 1
   if (columna1 == 0 && fila1 == 0) //high
   {
     Serial.println("Es posicion 1");
-    delay(100);
+    delay(50);
   }
 
   if (columna1 == 0 && fila2 == 0)
   {
     Serial.println("Es posicion 2");
-    delay(100);
+    delay(50);
   }
 
   if (columna1 == 0 && fila3 == 0)
   {
     Serial.println("Es posicion 3");
-    delay(100);
+    delay(50);
   }
-  ///////////////////////////////////columna 2
+  //columna 2
   if (columna2 == 0 && fila1 == 0)
   {
     Serial.println("Es posicion 4");
-    delay(100);
+    delay(50);
   }
 
   if (columna2 == 0 && fila2 == 0)
   {
     Serial.println("Es posicion 5");
-    delay(100);
+    delay(50);
   }
 
   if (columna2 == 0 && fila3 == 0)
   {
     Serial.println("Es posicion 6");
-    delay(100);
+    delay(50);
   }
-  //////////////////////////columna 3
+  //columna 3
   if (columna3 == 0 && fila1 == 0)
   {
     Serial.println("Es posicion 7");
-    delay(100);
+    delay(50);
   }
 
   if (columna3 == 0 && fila2 == 0)
   {
     Serial.println("Es posicion 8");
-    delay(100);
+    delay(50);
   }
 
   if (columna3 == 0 && fila3 == 0)
   {
     Serial.println("Es posicion 9");
-    delay(100);
+    delay(50);
   }
 }
-  
-```
+ 
   
