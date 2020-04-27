@@ -87,4 +87,3 @@ void posicion(int columna1, int columna2, int columna3, int fila1, int fila2, in
     delay(50);
   }
 }
- 
