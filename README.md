@@ -1,8 +1,9 @@
-# Multiplexacion implementado en Arduino(Especifico)
+# Multiplexacion implementado en Arduino
 
 
 <p align="center">
   <img  src="https://github.com/IDiegoUlises/Arduino-Multiplexacion/blob/master/Images/network.png">
 </p>
 
-* Es unir dos o mas señales para transmitirla en un canal
+## ¿Que es la multiplexacion?
+Es combinar dos o mas señales para transmitirla por un solo medio de tranmision
