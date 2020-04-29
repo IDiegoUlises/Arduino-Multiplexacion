@@ -9,7 +9,7 @@ En una red de internet los dispositivos conectados envian una señal 5 dispositi
 * **Es combinar dos o mas señales para transmitirla por un solo medio de transmision**
 
 **Tipos de Multiplexacion**
-* La multiplexacion por division de tiempo(TDM)
+* La multiplexacion por division de tiempo **(TDM)**
 * La multiplexacion estadistica(TDM)
 * La multiplexacion por division de frecuencia(FDM)
 * La multiplexacion por division en codigo(CDM)
@@ -21,7 +21,7 @@ En una red de internet los dispositivos conectados envian una señal 5 dispositi
 
 * **Con 6 puertos detectamos 9 señales**
 
-Lo que debemos hacer es dividir el circuito en **filas** y **columnas** en matrices de 3x3 o 4x4 o mayores lo que sucede es que al presionar un pulsador entrega energia a toda la fila y en toda columna para calcular su posicion el Arduino recibe 2 señales para convertirla en una sola señal.  
+Lo que debemos hacer es dividir el circuito en **filas** y **columnas** en matrices de 3x3 o 4x4 o mayores lo que sucede es que al presionar un pulsador entrega energia a toda la fila y en toda columna para calcular su posicion el arduino recibe 2 señales para convertirla en una sola señal.  
 
 
 **El Arduino se Convierte en un Mutliplexor**
@@ -33,5 +33,5 @@ void posicion(int columna, int fila)
     digitalWrite(Led, OUTPUT);
   }
 ```
-* Se combinan 2 señales para convertila en una sola señal
+* Se combinan dos señales para convertila en una sola señal
 
