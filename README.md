@@ -30,7 +30,6 @@ void posicion(int columna, int fila)
   if (columna == HIGH && fila == HIGH)
   {
     digitalWrite(Led, OUTPUT);
-    delay(50);
   }
 ```
 * **Se combinan 2 señales para convertila en una sola señal**
