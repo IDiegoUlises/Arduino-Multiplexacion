@@ -13,3 +13,8 @@ En una red de internet todos los dispositivos conectados envian una señal 5 dis
 * La multiplexacion estadística o TDM asincrona o TDM estadistica
 * La multiplexacion por division de frecuencia o FDM
 * La multiplexacion por división en codigo o CDM
+
+
+
+
+<img src="https://github.com/IDiegoUlises/Arduino-Multiplexacion/blob/master/Images/Mutliplexacion-Botones.jpg" />
