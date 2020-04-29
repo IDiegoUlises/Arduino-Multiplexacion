@@ -21,7 +21,7 @@ En una red de internet los dispositivos conectados envian una señal 5 dispositi
 
 * **Con 6 puertos detectamos 9 señales**
 
-Lo que debemos hacer es divir el circuito en **filas** y **columnas** solo se puede en matrices de 3x3 o 4x4 o mayores lo que sucede es que al presionar el pulsador entrega energia a toda la fila y en toda columna el Arduino recibe 2 señales para convertirla en una sola señal.  
+Lo que debemos hacer es divir el circuito en **filas** y **columnas** solo se puede en matrices de 3x3 o 4x4 o mayores lo que sucede es que al presionar un pulsador entrega energia a toda la fila y en toda columna para calcular su posicion el Arduino recibe 2 señales para convertirla en una sola señal.  
 
 
 **El Arduino se Convierte en un Mutliplexor**
