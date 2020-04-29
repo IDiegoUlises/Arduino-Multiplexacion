@@ -9,7 +9,7 @@ En una red de internet todos los dispositivos conectados envian una señal 5 dis
 * **Es combinar dos o mas señales para transmitirla por un solo medio de transmision**
 
 **Tipos de Multiplexacion**
-* la multiplexacion por division de tiempo o TDM sincrona
-* la multiplexacion estadística o TDM asincrona o TDM estadistica
-* la multiplexacion por division de frecuencia o FDM
-* la multiplexacion por división en codigo o CDM
+* La multiplexacion por division de tiempo o TDM sincrona
+* La multiplexacion estadística o TDM asincrona o TDM estadistica
+* La multiplexacion por division de frecuencia o FDM
+* La multiplexacion por división en codigo o CDM
