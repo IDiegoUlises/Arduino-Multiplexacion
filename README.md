@@ -23,15 +23,14 @@ Lo que debemos hacer es divir el circuito en **filas** y **columnas** solo se pu
 * Circuito de 9 pulsadores
 * Con 6 puertos del Arduino detectamos los 9 pulsadores
 
-**El Arduino se convierte en un mutliplexor**
+**El Arduino se Convierte en un Mutliplexor**
 ```C++
 void posicion(int columna,int fila)
 {
-  //columna 1
-  if (columna1 == HIGH && fila1 == HIGH)//HIGH
+  if (columna == HIGH && fila == HIGH)//HIGH
   {
     digitalWrite(Led,OUTPUT);
     delay(50);
   }
 ```
-* El Arduino combina 2 señales para convertila en una sola señal
+* **El Arduino combina las 2 señales para convertila en una sola señal**
