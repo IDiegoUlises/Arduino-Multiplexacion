@@ -1,7 +1,4 @@
-# Multiplexacion implementado en Arduino
-
-
-## ¿Que es la multiplexacion?
+# ¿Que es la Multiplexacion?
 
 <p align="center">
   <img  src="https://github.com/IDiegoUlises/Arduino-Multiplexacion/blob/master/Images/network.png">
