@@ -14,7 +14,6 @@ En una red de internet todos los dispositivos conectados envian una señal 5 dis
 * La multiplexacion por division de frecuencia o FDM
 * La multiplexacion por división en codigo o CDM
 
+## ¿Como Utilizar Multiplexacion en Arduino?
 
-
-
-<img src="https://github.com/IDiegoUlises/Arduino-Multiplexacion/blob/master/Images/Mutliplexacion-Botones.jpg" />
+<img src="https://github.com/IDiegoUlises/Arduino-Multiplexacion/blob/master/Images/Mutliplexacion-Botones.jpg" width="400" height="600" />
