@@ -18,7 +18,20 @@ En una red de internet todos los dispositivos conectados envian una señal 5 dis
 
 <img src="https://github.com/IDiegoUlises/Arduino-Multiplexacion/blob/master/Images/Mutliplexacion-Botones.jpg" width="400" height="600" />
 
-Lo que debemos hacer es divir el circuito en **filas** y **columnas** solo se puede realizer en matrices de 3x3 o 4x4 o mas lo que sucede es que al presionar el pulsador entrega energia a toda la fila y en toda columna, en el puerto del arduino recibe 2 señales para convertirla en una sola señal.  
+Lo que debemos hacer es divir el circuito en **filas** y **columnas** solo se puede realizer en matrices de 3x3 o 4x4 o mayores lo que sucede es que al presionar el pulsador entrega energia a toda la fila y en toda columna en el puerto del arduino recibe 2 señales para convertirla en una sola señal.  
 
 * Circuito de 9 pulsadores
-* Con 6 puertos del arduino detectamos los 9 pulsadores
+* Con 6 puertos del Arduino detectamos los 9 pulsadores
+
+**El Arduino se convierte en un mutliplexor**
+```C++
+void posicion(int columna,int fila)
+{
+  //columna 1
+  if (columna1 == HIGH && fila1 == HIGH)//HIGH
+  {
+    digitalWrite(Led,OUTPUT);
+    delay(50);
+  }
+```
+* El Arduino combina 2 señales para convertila en una sola señal
