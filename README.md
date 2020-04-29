@@ -9,10 +9,10 @@ En una red de internet todos los dispositivos conectados envian una señal 5 dis
 * **Es combinar dos o mas señales para transmitirla por un solo medio de transmision**
 
 **Tipos de Multiplexacion**
-* La multiplexacion por division de tiempo o TDM sincrona
-* La multiplexacion estadística o TDM asincrona o TDM estadistica
-* La multiplexacion por division de frecuencia o FDM
-* La multiplexacion por división en codigo o CDM
+* La multiplexacion por division de tiempo(TDM)
+* La multiplexacion estadistica(TDM)
+* La multiplexacion por division de frecuencia(FDM)
+* La multiplexacion por division en codigo(CDM)
 
 ## ¿Como Utilizar Multiplexacion en Arduino?
 
@@ -25,12 +25,12 @@ Lo que debemos hacer es divir el circuito en **filas** y **columnas** solo se pu
 
 **El Arduino se Convierte en un Mutliplexor**
 ```C++
-void posicion(int columna,int fila)
+void posicion(int columna, int fila)
 {
-  if (columna == HIGH && fila == HIGH)//HIGH
+  if (columna == HIGH && fila == HIGH)
   {
-    digitalWrite(Led,OUTPUT);
+    digitalWrite(Led, OUTPUT);
     delay(50);
   }
 ```
-* **El Arduino combina las 2 señales para convertila en una sola señal**
+* **Se combinan 2 señales para convertila en una sola señal**
