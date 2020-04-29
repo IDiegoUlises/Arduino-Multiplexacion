@@ -16,7 +16,7 @@ En una red de internet todos los dispositivos conectados envian una señal 5 dis
 
 ## ¿Como Utilizar Multiplexacion en Arduino?
 
-<img src="https://github.com/IDiegoUlises/Arduino-Multiplexacion/blob/master/Images/Mutliplexacion-Botones.jpg" width="400" height="600" />
+<img src="https://github.com/IDiegoUlises/Arduino-Multiplexacion/blob/master/Images/Arduino-Multiplexacion.jpg" width="400" height="600" />
 
 * **Con 6 puertos detectamos 9 pulsadores**
 
@@ -32,4 +32,4 @@ void posicion(int columna, int fila)
     digitalWrite(Led, OUTPUT);
   }
 ```
-* **Se combinan 2 señales para convertila en una sola señal**
+* Se combinan 2 señales para convertila en una sola señal**
