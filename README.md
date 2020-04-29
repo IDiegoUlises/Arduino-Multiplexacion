@@ -10,9 +10,9 @@ En una red de internet los dispositivos conectados envian una señal 5 dispositi
 
 **Tipos de Multiplexacion**
 * La multiplexacion por division de tiempo **(TDM)**
-* La multiplexacion estadistica(TDM)
-* La multiplexacion por division de frecuencia(FDM)
-* La multiplexacion por division en codigo(CDM)
+* La multiplexacion estadistica **(TDM)**
+* La multiplexacion por division de frecuencia **(FDM)**
+* La multiplexacion por division en codigo **(CDM)**
 
 ## ¿Como Utilizar Multiplexacion en Arduino?
 
@@ -33,5 +33,5 @@ void posicion(int columna, int fila)
     digitalWrite(Led, OUTPUT);
   }
 ```
-* Se combinan dos señales para convertila en una sola señal
+* Se combinan dos señales para convertirla en una sola señal
 
